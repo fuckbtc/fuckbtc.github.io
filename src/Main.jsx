@@ -10,7 +10,8 @@ export default function Main() {
           <img className="logo" src={fuckbtc} alt="fuckbtc" />
           <h1>Fuck BTC!</h1>
           <p>Tesla will sell their Bitcoins?</p>
-          <p>We are going to buy it all will $FuckBTC! HODL!</p>
+          <p>We are going to buy it all with $FuckBTC's! HODL!</p>
+          <h2>Contract: <b>0x36577bb306a6963892d3258dd0623f04faf85700</b></h2>
           <br />
           <a
             className="mr-5"
@@ -161,7 +162,7 @@ export default function Main() {
             <h3>Proofs:</h3>
             <ul>
               <a
-                href="https://bscscan.com/address/0x36577bb306a6963892d3258dd0623f04faf85700#code"
+                href="https://bscscan.com/address/0x36577bb306a6963892d3258dd0623f04faf85700"
                 target="_blank"
               >
                 <li>Contract Address</li>
@@ -173,7 +174,7 @@ export default function Main() {
                 <li>Locked liquidity</li>
               </a>
               <a
-                href="0x000000000000000000000000000000000000dead"
+                href="https://bscscan.com/tx/0x26c3bcbf8c43721e5bd95c51a5bd3700a1d887e0b5b31dedb7e05b71f033699b"
                 target="_blank"
               >
                 <li>Burnt tokens</li>
@@ -184,6 +185,14 @@ export default function Main() {
               >
                 <li>Bogged chart</li>
               </a>
+
+              <a
+                href="https://www.rugscreen.com/scan/certificate?tokenid=1fb351ae19"
+                target="_blank"
+              >
+                <li>Rugscreen</li>
+              </a>
+              
             </ul>
           </div>
         </div>
