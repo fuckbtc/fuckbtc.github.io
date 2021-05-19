@@ -1,16 +1,16 @@
 import React from "react";
 
-import fuckbtc from "./fuckbtc.jpg";
+import killbtc from "./killbtc.jpg";
 
 export default function Main() {
   return (
     <div className="main">
       <div className="child">
         <div className="title">
-          <img className="logo" src={fuckbtc} alt="fuckbtc" />
-          <h1>Fuck BTC!</h1>
+          <img className="logo" src={killbtc} alt="killbtc" />
+          <h1>Kill BTC!</h1>
           <p>Tesla will sell their Bitcoins?</p>
-          <p>We are going to buy it all with $FuckBTC's! HODL!</p>
+          <p>We are going to buy it all with $KillBTC's! HODL!</p>
           <h2>Contract: <b>0x36577bb306a6963892d3258dd0623f04faf85700</b></h2>
           <br />
           <a
@@ -135,10 +135,6 @@ export default function Main() {
           </a>
         </div>
 
-        {/* <NavLink className="uni-guide" to="/uniswap-guide">
-          UNISWAP GUIDE
-        </NavLink> */}
-
         <div className="section">
           <div>
             <h3>Tokenomics:</h3>
@@ -152,9 +148,9 @@ export default function Main() {
           <div>
             <h3>Rules:</h3>
             <ul>
-              <li>5% burnt every swap</li>
-              <li>2% distributed to holders</li>
-              <li>2% to dev & marketing</li>
+              <li>3% burnt every swap</li>
+              <li>3% distributed to holders</li>
+              <li>3% to dev & marketing</li>
               <li>Use at least 9.5% slippage</li>
             </ul>
           </div>
